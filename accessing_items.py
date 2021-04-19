@@ -29,7 +29,7 @@ print(a.get(101))
 print(a.get(102))"""
 
 
-car = {
+"""car = {
 "brand": "Ford",
 "model": "Mustang",
 "year": 1964
@@ -47,4 +47,19 @@ print(car)
 print(x) #after the change
 
 for x in car:
-    print(x)
+    print(x)"""
+
+
+#creating a dictionary
+
+thisdict={
+  "brand":"ford",
+  "model":"mustang",
+  "year":1964
+}
+
+print(thisdict["brand"])
+print(thisdict.get("brand"))
+
+#dictionary_length
+#to determine
